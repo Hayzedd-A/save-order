@@ -1,0 +1,19 @@
+{
+  "name": "sync-order",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.7.3",
+    "dotenv": "^17.4.2",
+    "node-cron": "^4.2.1",
+    "openai": "^6.42.0"
+  }
+}
