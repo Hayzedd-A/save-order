@@ -39,6 +39,11 @@ app.event("app_mention", async ({ event, say }) => {
       return;
     }
 
+    if (messageText.toLowerCase() === "bot -version") {
+      await say("1.0.0");
+      return;
+    }
+
     await say("Processing your order... ⏳");
 
     const result = await openaiService.parseOrder(messageText);
