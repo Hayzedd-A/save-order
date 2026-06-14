@@ -40,7 +40,7 @@ app.event("app_mention", async ({ event, say }) => {
     }
 
     if (messageText.toLowerCase() === "bot -version") {
-      await say("1.0.0");
+      await say("1.0.1");
       return;
     }
 

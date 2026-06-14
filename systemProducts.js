@@ -54,7 +54,7 @@ class SystemProducts {
 
   static async createOrder(payload) {
     try {
-      const endpoint = "customer-requests/slack-bot/order/new";
+      const endpoint = "customer-requests/stores/slack-bot/order/new";
       const res = await this.makeRequest({
         endpoint,
         method: "POST",
